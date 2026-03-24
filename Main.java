@@ -10,5 +10,21 @@ public class Main {
         System.out.println("Name: Shivam");
         System.out.println("City: Varanasi");
         System.out.println("Goal: Become a Java Developer");
+
+        /*-----------------------------------
+        -----Day-2 Variables and Data Types--
+        -------------------------------------*/
+
+        int age = 21;
+        double height = 5.9;
+        char grade = 'A';
+        String name = "Shivam";
+        boolean isStudent = true;
+
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(grade);
+        System.out.println(isStudent);
     }
 }
