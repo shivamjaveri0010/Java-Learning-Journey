@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello, World!");
@@ -38,12 +40,49 @@ public class Main {
         // System.out.println("I live in " + city);
 
         /*-----Task-2-----*/
-        String productName = "Milk";
-        double price = 4.2;
-        boolean isAvailable = true;
+        // String productName = "Milk";
+        // double price = 4.2;
+        // boolean isAvailable = true;
 
-        System.out.println("Product Name: " + productName);
-        System.out.println("Price: $" + price);
-        System.out.println("In Stock: " + isAvailable);
+        // System.out.println("Product Name: " + productName);
+        // System.out.println("Price: $" + price);
+        // System.out.println("In Stock: " + isAvailable);
+
+        /*---------------Day-3-------------
+        ------Operators & User Input-------
+        ----------------------------------*/
+
+        //user input
+        // Scanner sc = new Scanner(System.in);
+        // int num1 = sc.nextInt();
+        // int num2 = sc.nextInt();
+
+        // //operations
+        // System.out.println("Sum: " + (num1+num2));
+        // System.out.println("Difference: " + (num1/num2));
+        // System.out.println("Product: " + (num1*num2));
+
+        /*----------Exercise----------*/
+
+        // String name = sc.nextLine();
+        // String city = sc.nextLine();
+
+        // System.out.println("Hello this is " + name + " from " + city + ".");
+
+        // sc.close();
+
+        /*-----Task-3-----*/
+        //user input of two numbers and performing arithmetic operations
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+
+        //operations
+        System.out.println("Addition: " + (n1+n2));
+        System.out.println("Subtraction: " + (n1-n2));
+        System.out.println("Multiplication: " + (n1*n2));
+        System.out.println("Division: " + (n1/n2));
+
+        sc.close();
     }
 }
